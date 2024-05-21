@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Game Hexa</title>
+</head>
+<body>
+    <div id="app">
+        <div class="game-screen hide">
+            <div class="card">
+                <div class="logo">
+                    <img src="images/snake_logo.jpeg" alt="">
+                </div>
+                <div class="body-screen">
+                    <button id="play-game">Play Game</button>
+                    <button id="instruction">Instruction</button>
+                </div>
+            </div>
+            <div class="instruction-screen hide">
+                <div id="x">
+                    X
+                </div>
+                    <div class="header">Instruction Snake Games</div>
+                    <div class="instruction-body">
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ol>
+                    </div>
+            </div>
+        </div>
+        <div class="countdown hide">
+            <div class="count">3</div>
+        </div>
+        <div class="plat-snake-wrapper">
+            <div class="plat-snake">
+            </div>
+            <button class="dice" id="dice">
+                <p >Dice : <span id="dice-number" class="dice-number"></span></p>
+                <img src="images/dice.png" alt="">
+            </button>
+        </div>
+    </div>
+
+    
+    <script src="script.js" type="module"></script>
+</body>
+</html>
